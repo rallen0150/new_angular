@@ -1,0 +1,15 @@
+<h1>Calculator App</h1>
+
+<input [(ngModel)]='firstNum' type="number" name="firstNum" placeholder="First Number">
+<input [(ngModel)]='secondNum' type="number" name="secondNum" placeholder="Second Number">
+<br>
+<button (click)='cal_add()'>Add (+)</button>
+<br>
+<button (click)='cal_subtract()'>Subtract (-)</button>
+<br>
+<button (click)='cal_multiply()'>Multiply (X)</button>
+<br>
+<button (click)='cal_divide()'>Divide (/)</button>
+<br><br><br>
+{{result}}
+<!-- <button type="submit">Calculate!</button> -->
